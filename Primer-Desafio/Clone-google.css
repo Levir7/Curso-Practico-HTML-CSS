@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+}
+body a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    display: flex;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height:100vh;
+    background-color: #1c1c1c;
+}
+.header-container{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-items: center;
+}
+.header-container a{
+    margin: 0 12px;
+}
+.header-container img{
+    width: 20px;
+    height: 20px;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    padding: 0 12px 24px 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.google-search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.google-search img{
+    width: 450px;
+    height: 250px;
+}
+.google-search input{
+    width: 550px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: 2.8rem;
+    text-align: center;
+}
+.google-search input:focus{
+    border: none;
+}
+.google-search .search{
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    align-items: center;
+}
+.google-search .search img{
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+.google-search .search img:nth-child(1){
+    margin-left: 12px;
+}
+.google-search .search img:nth-child(3){
+    margin-right: 12px;
+}
+
+.container .buttons button{
+    width: 150px;
+    height: 25px;
+    margin-top: 12px;
+    border: 2px solid lightgreen;
+    background: white;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 5px;
+}
+.footer .footer-left{
+    display: flex;
+    width: 50%;
+}
+.footer .footer-left a{
+    margin-left: 14px;
+}
+.footer .footer-right{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+.footer .footer-right a{
+    margin-right: 14px;
+}
